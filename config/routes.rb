@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'password_resets/new'
+
+  get 'password_resets/edit'
+
 Rails.application.routes.default_url_options[:host] = "https://e1688578b0924065adcecb206f3e3ae0.vfs.cloud9.us-east-2.amazonaws.com"
   get 'sessions/new'
 
@@ -15,4 +19,5 @@ Rails.application.routes.default_url_options[:host] = "https://e1688578b0924065a
   delete  '/logout',   to: 'sessions#destroy'
     resources :users
     resources :account_activations, only: [:edit]
+    resources :password_resets,     only: [:new, :create, :edit, :update]
 end
