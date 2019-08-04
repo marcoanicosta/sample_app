@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+Rails.application.routes.default_url_options[:host] = "https://e1688578b0924065adcecb206f3e3ae0.vfs.cloud9.us-east-2.amazonaws.com"
   get 'sessions/new'
 
   get 'users/new'
@@ -13,4 +14,5 @@ Rails.application.routes.draw do
   post  '/login',   to: 'sessions#create'
   delete  '/logout',   to: 'sessions#destroy'
     resources :users
+    resources :account_activations, only: [:edit]
 end
