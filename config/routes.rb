@@ -20,4 +20,5 @@ Rails.application.routes.default_url_options[:host] = "https://e1688578b0924065a
     resources :users
     resources :account_activations, only: [:edit]
     resources :password_resets,     only: [:new, :create, :edit, :update]
+    resources :microposts,          only: [:create, :destroy]
 end
