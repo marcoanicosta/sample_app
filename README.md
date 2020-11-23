@@ -1,4 +1,4 @@
-# Ruby on Rails Tutorial sample application
+# Ruby on Rails Tutorial sample application (Twitter Clone)
 
 Completed the ruby Twitter App via the Michael Hartl Tutorial:
 [*Ruby on Rails Tutorial:
@@ -11,7 +11,8 @@ After completing the tutorial, I decided to implement a retweet functionality th
 
 To view the project access the link below:
 
-
+## Heroku Link
+https://delicat-vin-63880.herokuapp.com/
 
 ## Getting started
 
