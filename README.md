@@ -1,15 +1,17 @@
 # Ruby on Rails Tutorial sample application
 
-This is the sample application for
+Completed the ruby Twitter App via the Michael Hartl Tutorial:
 [*Ruby on Rails Tutorial:
 Learn Web Development with Rails*](https://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
-## License
+Ruby on Rails web application which consisted of TDD and Software Development Priciples. The end product was a twitter like app, with Microposts(tweets) and a feed which can be viewed via created accounts. Account types(admin/standerd users).
 
-All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
-is available jointly under the MIT License and the Beerware License. See
-[LICENSE.md](LICENSE.md) for details.
+After completing the tutorial, I decided to implement a retweet functionality that allows users to retweet as microposts as you would in Twitter. 
+
+To view the project access the link below:
+
+
 
 ## Getting started
 
