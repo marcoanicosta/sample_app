@@ -11,8 +11,6 @@ After completing the tutorial, I decided to implement a retweet functionality th
 
 To view the project access the link below:
 
-## Heroku Link
-https://delicat-vin-63880.herokuapp.com/
 
 ## Getting started
 
